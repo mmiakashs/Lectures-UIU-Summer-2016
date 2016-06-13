@@ -1,4 +1,4 @@
-package com.sa.omelet.fourthclass;
+package com.sa.omelet.fourthLecture;
 
 /**
  * Created by akashs on 6/7/16.

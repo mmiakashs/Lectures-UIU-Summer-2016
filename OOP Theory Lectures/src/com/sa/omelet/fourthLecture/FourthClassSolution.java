@@ -1,4 +1,4 @@
-package com.sa.omelet.fourthclass;
+package com.sa.omelet.fourthLecture;
 
 public class FourthClassSolution {
 
