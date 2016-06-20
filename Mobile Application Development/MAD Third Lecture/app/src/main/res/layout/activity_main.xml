@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.omeletlab.sa.madthirdlecture.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/inputAreaLayout">
+
+        <Button
+            android:id="@+id/increaseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="58sp"/>
+
+        <EditText
+            android:id="@+id/inputAmountET"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="50"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/decreaseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="58sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputAreaLayout"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/resultTV"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="50"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/calculateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculater"
+            />
+    </LinearLayout>
+</RelativeLayout>
