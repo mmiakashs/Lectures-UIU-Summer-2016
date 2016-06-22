@@ -15,7 +15,7 @@ public class Solution {
         fig = new Triangle(10,50);
         fig.showInfo();
         System.out.println("Triangle Area "+fig.calArea());
-//
+//.
 //        Figure fig1 = new Figure();
 //        rectangle = fig1;
     }
