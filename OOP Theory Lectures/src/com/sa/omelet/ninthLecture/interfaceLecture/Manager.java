@@ -14,11 +14,23 @@ public class Manager extends Figure implements TeamLeader {
 
     @Override
     public void teamLeaderRes() {
-
+        System.out.println(a+" "+d);
     }
 
     @Override
     public void companyName() {
 
+    }
+
+    interface innerIn{
+        public  void demo(String s);
+    }
+
+    public class InnerClass implements innerIn{
+
+        @Override
+        public void demo(String s) {
+
+        }
     }
 }
