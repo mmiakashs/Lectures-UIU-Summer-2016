@@ -7,11 +7,17 @@ import java.util.Scanner;
  */
 public class Solution {
 
-    static int fun(int a, int b){
+    static int fun(int a, int b)throws NullPointerException,
+            ArithmeticException, ArrayIndexOutOfBoundsException
+    {
         int r=12457932;
         int[] array = new int[5];
-            if(a>1000){
-                throw new NullPointerException("hello");
+            try {
+                if (a > 1000) {
+                    throw new MyExeption("Value is over 1000, a ="+a);
+                }
+            }catch (MyExeption e){
+                System.out.println(e);
             }
             r = a / b;
             array[r]=10;
@@ -20,15 +26,20 @@ public class Solution {
     }
     public static void main(String arg[]){
         Scanner sc = new Scanner(System.in);
-
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int res=123;
-        try{
-            res=fun(a,b);
-        }
-        catch (ArrayIndexOutOfBoundsException ex){
-            System.out.println("Array out of index");
+        int res = 123;
+        try {
+            try {
+                int a = sc.nextInt();
+                int b = sc.nextInt();
+                try {
+                    res = fun(a, b);
+                } catch (ArrayIndexOutOfBoundsException ex) {
+                    System.out.println("Array out of index");
+                }
+                System.out.println("executed without exeception");
+            } catch (ArithmeticException e) {
+                System.out.println("Math error");
+            }
         }
         catch(Exception e){
             System.out.println("other exception occured"+e);
