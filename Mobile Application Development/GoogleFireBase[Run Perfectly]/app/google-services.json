@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "415354126922",
+    "firebase_url": "https://fir-projectuiusummer2016.firebaseio.com",
+    "project_id": "fir-projectuiusummer2016",
+    "storage_bucket": "fir-projectuiusummer2016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415354126922:android:92969e4f334238f4",
+        "android_client_info": {
+          "package_name": "com.omeletlab.sa.googlefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415354126922-k0kud8mo2qn7mim89c301pabcenjp86j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2N3oBWVSZ7r2ajTPAYLSUykfa0XWgI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

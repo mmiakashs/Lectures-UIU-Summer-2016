@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "646508742248",
+    "firebase_url": "https://summerclassproject2016.firebaseio.com",
+    "project_id": "summerclassproject2016",
+    "storage_bucket": "summerclassproject2016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646508742248:android:ef30d3eb384b5f45",
+        "android_client_info": {
+          "package_name": "com.omeletlab.sa.firebaseclass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646508742248-ah6bk09ff4dr3cn1u6na8mimfnru7qug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWPyZP6ItkslaOxGduCM2P5M89YUsN_7A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
