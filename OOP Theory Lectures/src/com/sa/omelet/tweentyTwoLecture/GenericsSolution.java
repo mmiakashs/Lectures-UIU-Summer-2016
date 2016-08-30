@@ -13,6 +13,19 @@ public class GenericsSolution {
         System.out.println("");
     }
 
+    public static <M extends Comparable<M> > M getMax(M a, M b, M c){
+        if(a.compareTo(b)>0){
+            if(a.compareTo(c)>0){
+                return a;
+            }
+            return c;
+        }
+        else if(b.compareTo(c)>0){
+            return b;
+        }
+        return c;
+    }
+
 
     public static void main(String[] args) {
         Integer[] a = {1, 5, 10, 7, 9};
